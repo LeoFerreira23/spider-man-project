@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+
+    <title>Marvel Spider Man 2</title>
+
+</head>
+<body>
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src="./src/video/Marvel's Spider-Man 2.mp4" type="video/mp4"/>
+        </video>
+    </div>
+
+    <header class="cabecalho">
+        <a>
+            <img class="logo" src="./src/imagens/logo-spider.png" alt="logo spider man">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="informacoes">
+            <img class="imagem-titulo" src="./src/imagens/titulo.png" alt="imagem do titulo do jogo"/>
+            <p class="descricao">Os Homens-Aranha Peter Parker e Miles Morales enfrentam o teste final de força enquanto lutam para salvar a cidade, um ao outro e    aqueles que amam, do monstruoso Venom e da perigosa nova ameaça do simbionte.
+                Explore uma Nova York expansiva com um balanço mais rápido e as novas Web Wings, alternando rapidamente entre Peter e Miles para experimentar histórias diferentes, habilidades épicas e equipamentos de alta tecnologia.
+                Use as habilidades simbiontes de Peter e os explosivos poderes bioelétricos de Miles na batalha contra os novos e icônicos supervilões da Marvel - incluindo uma versão original de um Venom com infusão de simbionte, o implacável Kraven, o Caçador, o volátil Lagarto e muito mais.</p>
+                <button class="botao-trailer">Veja o trailer</button>
+        </div>
+        <img class="spider" src="./src/imagens/spider-man-2.png"/>
+
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://youtube.com/embed/rn4qhWWfgCM?si=1UMUba42DERYaEVu" title="Trailer oficial" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+</body>
+
+    <script src="./src/js/index.js"></script>
+</html>
